@@ -16,7 +16,7 @@ int main()
 	cout << endl;
 
 	{
-		// 참조만 한다. 그래서 lec 객체가 없어져고 t, s1, s2, s3는 유지된다.
+		// 참조만 한다. 그래서 lec 객체가 없어져도 t, s1, s2, s3는 유지된다.
 		Lecture lec("C++_Language");
 		lec.AssignmentTeacher(&t);
 		lec.AssignmentStudent(&s1);
